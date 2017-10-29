@@ -17,8 +17,8 @@ public class Agram {
     private static final int PLAY_AGRAM = 1; // Static menu options
     private static final int HOW_TO_PLAY = 2;
     private static final int QUIT = 3;
-    private static int GAME_OVER = 0; // Game over counter
 
+    private static int GAME_OVER = 0; // Game over counter
 
     void menu() { // menu method
         TreeMap<Integer, String> options = configureMenuOptions();
